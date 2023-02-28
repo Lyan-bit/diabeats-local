@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023136A229AD7F2A00F28416 /* ModelFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369129AD7F2A00F28416 /* ModelFacade.swift */; };
+		023136A329AD7F2A00F28416 /* OclFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369229AD7F2A00F28416 /* OclFile.swift */; };
+		023136A429AD7F2A00F28416 /* DiabeatsBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369329AD7F2A00F28416 /* DiabeatsBean.swift */; };
+		023136A529AD7F2A00F28416 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369429AD7F2A00F28416 /* DB.swift */; };
+		023136A629AD7F2A00F28416 /* DiabeatsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369529AD7F2A00F28416 /* DiabeatsMain.swift */; };
+		023136A729AD7F2A00F28416 /* ClassifyDiabeatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369629AD7F2A00F28416 /* ClassifyDiabeatsScreen.swift */; };
+		023136A829AD7F2A00F28416 /* ModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369729AD7F2A00F28416 /* ModelParser.swift */; };
+		023136A929AD7F2A00F28416 /* Diabeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369829AD7F2A00F28416 /* Diabeats.swift */; };
+		023136AA29AD7F2A00F28416 /* ListDiabeatsRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369929AD7F2A00F28416 /* ListDiabeatsRowScreen.swift */; };
+		023136AB29AD7F2A00F28416 /* Ocl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369A29AD7F2A00F28416 /* Ocl.swift */; };
+		023136AC29AD7F2A00F28416 /* OclType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369B29AD7F2A00F28416 /* OclType.swift */; };
+		023136AD29AD7F2A00F28416 /* DiabeatsVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369C29AD7F2A00F28416 /* DiabeatsVO.swift */; };
+		023136AE29AD7F2A00F28416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369D29AD7F2A00F28416 /* ContentView.swift */; };
+		023136AF29AD7F2A00F28416 /* FileAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369E29AD7F2A00F28416 /* FileAccessor.swift */; };
+		023136B029AD7F2A00F28416 /* ClassifyDiabeatsVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231369F29AD7F2A00F28416 /* ClassifyDiabeatsVO.swift */; };
+		023136B129AD7F2A00F28416 /* CreateDiabeatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023136A029AD7F2A00F28416 /* CreateDiabeatsScreen.swift */; };
+		023136B229AD7F2A00F28416 /* ListDiabeatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023136A129AD7F2A00F28416 /* ListDiabeatsScreen.swift */; };
+		028C7193299A5E8E00D197B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C7192299A5E8E00D197B7 /* Assets.xcassets */; };
+		028C7196299A5E8E00D197B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C7195299A5E8E00D197B7 /* Preview Assets.xcassets */; };
+		028C71C4299A615A00D197B7 /* diabeats.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 028C71C3299A615A00D197B7 /* diabeats.tflite */; };
+		249C584CA732F664DD00CEBD /* Pods_diabeats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34403B53468043F9FF695078 /* Pods_diabeats.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0231369129AD7F2A00F28416 /* ModelFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFacade.swift; sourceTree = "<group>"; };
+		0231369229AD7F2A00F28416 /* OclFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclFile.swift; sourceTree = "<group>"; };
+		0231369329AD7F2A00F28416 /* DiabeatsBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiabeatsBean.swift; sourceTree = "<group>"; };
+		0231369429AD7F2A00F28416 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		0231369529AD7F2A00F28416 /* DiabeatsMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiabeatsMain.swift; sourceTree = "<group>"; };
+		0231369629AD7F2A00F28416 /* ClassifyDiabeatsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyDiabeatsScreen.swift; sourceTree = "<group>"; };
+		0231369729AD7F2A00F28416 /* ModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelParser.swift; sourceTree = "<group>"; };
+		0231369829AD7F2A00F28416 /* Diabeats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diabeats.swift; sourceTree = "<group>"; };
+		0231369929AD7F2A00F28416 /* ListDiabeatsRowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDiabeatsRowScreen.swift; sourceTree = "<group>"; };
+		0231369A29AD7F2A00F28416 /* Ocl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocl.swift; sourceTree = "<group>"; };
+		0231369B29AD7F2A00F28416 /* OclType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclType.swift; sourceTree = "<group>"; };
+		0231369C29AD7F2A00F28416 /* DiabeatsVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiabeatsVO.swift; sourceTree = "<group>"; };
+		0231369D29AD7F2A00F28416 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0231369E29AD7F2A00F28416 /* FileAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAccessor.swift; sourceTree = "<group>"; };
+		0231369F29AD7F2A00F28416 /* ClassifyDiabeatsVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyDiabeatsVO.swift; sourceTree = "<group>"; };
+		023136A029AD7F2A00F28416 /* CreateDiabeatsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDiabeatsScreen.swift; sourceTree = "<group>"; };
+		023136A129AD7F2A00F28416 /* ListDiabeatsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDiabeatsScreen.swift; sourceTree = "<group>"; };
+		028C718B299A5E8D00D197B7 /* diabeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028C7192299A5E8E00D197B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028C7195299A5E8E00D197B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		028C719C299A5EB300D197B7 /* diabeats-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diabeats-Bridging-Header.h"; sourceTree = "<group>"; };
+		028C71C3299A615A00D197B7 /* diabeats.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = diabeats.tflite; sourceTree = "<group>"; };
+		0A6995326CFA915919114D65 /* Pods-diabeats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diabeats.debug.xcconfig"; path = "Target Support Files/Pods-diabeats/Pods-diabeats.debug.xcconfig"; sourceTree = "<group>"; };
+		34403B53468043F9FF695078 /* Pods_diabeats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diabeats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC83A65B4E1C44B1DDDE64D2 /* Pods-diabeats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diabeats.release.xcconfig"; path = "Target Support Files/Pods-diabeats/Pods-diabeats.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028C7188299A5E8D00D197B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C584CA732F664DD00CEBD /* Pods_diabeats.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028C7182299A5E8D00D197B7 = {
+			isa = PBXGroup;
+			children = (
+				028C718D299A5E8D00D197B7 /* diabeats */,
+				028C718C299A5E8D00D197B7 /* Products */,
+				0F559093CFE333663481D565 /* Pods */,
+				FCDEFC0BA0E82CA69F18039B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		028C718C299A5E8D00D197B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028C718B299A5E8D00D197B7 /* diabeats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028C718D299A5E8D00D197B7 /* diabeats */ = {
+			isa = PBXGroup;
+			children = (
+				0231369629AD7F2A00F28416 /* ClassifyDiabeatsScreen.swift */,
+				0231369F29AD7F2A00F28416 /* ClassifyDiabeatsVO.swift */,
+				0231369D29AD7F2A00F28416 /* ContentView.swift */,
+				023136A029AD7F2A00F28416 /* CreateDiabeatsScreen.swift */,
+				0231369429AD7F2A00F28416 /* DB.swift */,
+				0231369829AD7F2A00F28416 /* Diabeats.swift */,
+				0231369329AD7F2A00F28416 /* DiabeatsBean.swift */,
+				0231369529AD7F2A00F28416 /* DiabeatsMain.swift */,
+				0231369C29AD7F2A00F28416 /* DiabeatsVO.swift */,
+				0231369E29AD7F2A00F28416 /* FileAccessor.swift */,
+				0231369929AD7F2A00F28416 /* ListDiabeatsRowScreen.swift */,
+				023136A129AD7F2A00F28416 /* ListDiabeatsScreen.swift */,
+				0231369129AD7F2A00F28416 /* ModelFacade.swift */,
+				0231369729AD7F2A00F28416 /* ModelParser.swift */,
+				0231369A29AD7F2A00F28416 /* Ocl.swift */,
+				0231369229AD7F2A00F28416 /* OclFile.swift */,
+				0231369B29AD7F2A00F28416 /* OclType.swift */,
+				028C71C3299A615A00D197B7 /* diabeats.tflite */,
+				028C7192299A5E8E00D197B7 /* Assets.xcassets */,
+				028C7194299A5E8E00D197B7 /* Preview Content */,
+				028C719C299A5EB300D197B7 /* diabeats-Bridging-Header.h */,
+			);
+			path = diabeats;
+			sourceTree = "<group>";
+		};
+		028C7194299A5E8E00D197B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				028C7195299A5E8E00D197B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F559093CFE333663481D565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6995326CFA915919114D65 /* Pods-diabeats.debug.xcconfig */,
+				EC83A65B4E1C44B1DDDE64D2 /* Pods-diabeats.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCDEFC0BA0E82CA69F18039B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34403B53468043F9FF695078 /* Pods_diabeats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028C718A299A5E8D00D197B7 /* diabeats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028C7199299A5E8E00D197B7 /* Build configuration list for PBXNativeTarget "diabeats" */;
+			buildPhases = (
+				6C38BD9430BA4099D1627EB6 /* [CP] Check Pods Manifest.lock */,
+				028C7187299A5E8D00D197B7 /* Sources */,
+				028C7188299A5E8D00D197B7 /* Frameworks */,
+				028C7189299A5E8D00D197B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diabeats;
+			productName = diabeats;
+			productReference = 028C718B299A5E8D00D197B7 /* diabeats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028C7183299A5E8D00D197B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					028C718A299A5E8D00D197B7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 028C7186299A5E8D00D197B7 /* Build configuration list for PBXProject "diabeats" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028C7182299A5E8D00D197B7;
+			productRefGroup = 028C718C299A5E8D00D197B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028C718A299A5E8D00D197B7 /* diabeats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028C7189299A5E8D00D197B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028C71C4299A615A00D197B7 /* diabeats.tflite in Resources */,
+				028C7196299A5E8E00D197B7 /* Preview Assets.xcassets in Resources */,
+				028C7193299A5E8E00D197B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C38BD9430BA4099D1627EB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-diabeats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028C7187299A5E8D00D197B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023136AF29AD7F2A00F28416 /* FileAccessor.swift in Sources */,
+				023136A729AD7F2A00F28416 /* ClassifyDiabeatsScreen.swift in Sources */,
+				023136A629AD7F2A00F28416 /* DiabeatsMain.swift in Sources */,
+				023136A429AD7F2A00F28416 /* DiabeatsBean.swift in Sources */,
+				023136B229AD7F2A00F28416 /* ListDiabeatsScreen.swift in Sources */,
+				023136A529AD7F2A00F28416 /* DB.swift in Sources */,
+				023136A829AD7F2A00F28416 /* ModelParser.swift in Sources */,
+				023136B129AD7F2A00F28416 /* CreateDiabeatsScreen.swift in Sources */,
+				023136AD29AD7F2A00F28416 /* DiabeatsVO.swift in Sources */,
+				023136A329AD7F2A00F28416 /* OclFile.swift in Sources */,
+				023136AC29AD7F2A00F28416 /* OclType.swift in Sources */,
+				023136B029AD7F2A00F28416 /* ClassifyDiabeatsVO.swift in Sources */,
+				023136A929AD7F2A00F28416 /* Diabeats.swift in Sources */,
+				023136AA29AD7F2A00F28416 /* ListDiabeatsRowScreen.swift in Sources */,
+				023136AE29AD7F2A00F28416 /* ContentView.swift in Sources */,
+				023136AB29AD7F2A00F28416 /* Ocl.swift in Sources */,
+				023136A229AD7F2A00F28416 /* ModelFacade.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		028C7197299A5E8E00D197B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		028C7198299A5E8E00D197B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028C719A299A5E8E00D197B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6995326CFA915919114D65 /* Pods-diabeats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"diabeats/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyanalwakeel.diabeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "diabeats/diabeats-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028C719B299A5E8E00D197B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC83A65B4E1C44B1DDDE64D2 /* Pods-diabeats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"diabeats/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyanalwakeel.diabeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "diabeats/diabeats-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028C7186299A5E8D00D197B7 /* Build configuration list for PBXProject "diabeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C7197299A5E8E00D197B7 /* Debug */,
+				028C7198299A5E8E00D197B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028C7199299A5E8E00D197B7 /* Build configuration list for PBXNativeTarget "diabeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028C719A299A5E8E00D197B7 /* Debug */,
+				028C719B299A5E8E00D197B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028C7183299A5E8D00D197B7 /* Project object */;
+}
