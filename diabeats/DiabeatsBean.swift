@@ -13,36 +13,36 @@ class DiabeatsBean {
   	errorList = [String]()
   }
 
-  func isCreateDiabeatsError(id: String, pregnancies: Int, glucose: Int, bloodPressure: Int, skinThickness: Int, insulin: Int, bmi: Double, diabetesPedigreeFunction: Double, age: Int, outcome: String) -> Bool { 
+  func isCreateDiabeatsError(diabeats: DiabeatsVO) -> Bool { 
   	resetData() 
-  	if id == "" {
+  	if diabeats.id == "" {
   		errorList.append("id cannot be empty")
   	}
-  	if pregnancies != 0 {
+  	if diabeats.pregnancies != 0 {
 	  		errorList.append("pregnancies cannot be zero")
 	  	}
-  	if glucose != 0 {
+  	if diabeats.glucose != 0 {
 	  		errorList.append("glucose cannot be zero")
 	  	}
-  	if bloodPressure != 0 {
+  	if diabeats.bloodPressure != 0 {
 	  		errorList.append("bloodPressure cannot be zero")
 	  	}
-  	if skinThickness != 0 {
+  	if diabeats.skinThickness != 0 {
 	  		errorList.append("skinThickness cannot be zero")
 	  	}
-  	if insulin != 0 {
+  	if diabeats.insulin != 0 {
 	  		errorList.append("insulin cannot be zero")
 	  	}
-  	if bmi != 0 {
+  	if diabeats.bmi != 0 {
 	  		errorList.append("bmi cannot be zero")
 	  	}
-  	if diabetesPedigreeFunction != 0 {
+  	if diabeats.diabetesPedigreeFunction != 0 {
 	  		errorList.append("diabetesPedigreeFunction cannot be zero")
 	  	}
-  	if age != 0 {
+  	if diabeats.age != 0 {
 	  		errorList.append("age cannot be zero")
 	  	}
-  	if outcome == "" {
+  	if diabeats.outcome == "" {
   		errorList.append("outcome cannot be empty")
   	}
 
