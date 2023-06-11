@@ -2,80 +2,6 @@
 import Foundation
 import SwiftUI
 
-/* This code requires OclFile.swift */
-
-func initialiseOclFile()
-{ 
-  //let systemIn = createByPKOclFile(key: "System.in")
-  //let systemOut = createByPKOclFile(key: "System.out")
-  //let systemErr = createByPKOclFile(key: "System.err")
-}
-
-/* This metatype code requires OclType.swift */
-
-func initialiseOclType()
-{ let intOclType = createByPKOclType(key: "int")
-  intOclType.actualMetatype = Int.self
-  let doubleOclType = createByPKOclType(key: "double")
-  doubleOclType.actualMetatype = Double.self
-  let longOclType = createByPKOclType(key: "long")
-  longOclType.actualMetatype = Int64.self
-  let stringOclType = createByPKOclType(key: "String")
-  stringOclType.actualMetatype = String.self
-  let sequenceOclType = createByPKOclType(key: "Sequence")
-  sequenceOclType.actualMetatype = type(of: [])
-  let anyset : Set<AnyHashable> = Set<AnyHashable>()
-  let setOclType = createByPKOclType(key: "Set")
-  setOclType.actualMetatype = type(of: anyset)
-  let mapOclType = createByPKOclType(key: "Map")
-  mapOclType.actualMetatype = type(of: [:])
-  let voidOclType = createByPKOclType(key: "void")
-  voidOclType.actualMetatype = Void.self
-	
-  let diabeatsOclType = createByPKOclType(key: "Diabeats")
-  diabeatsOclType.actualMetatype = Diabeats.self
-
-  let diabeatsId = createOclAttribute()
-  	  diabeatsId.name = "id"
-  	  diabeatsId.type = stringOclType
-  	  diabeatsOclType.attributes.append(diabeatsId)
-  let diabeatsPregnancies = createOclAttribute()
-  	  diabeatsPregnancies.name = "pregnancies"
-  	  diabeatsPregnancies.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsPregnancies)
-  let diabeatsGlucose = createOclAttribute()
-  	  diabeatsGlucose.name = "glucose"
-  	  diabeatsGlucose.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsGlucose)
-  let diabeatsBloodPressure = createOclAttribute()
-  	  diabeatsBloodPressure.name = "bloodPressure"
-  	  diabeatsBloodPressure.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsBloodPressure)
-  let diabeatsSkinThickness = createOclAttribute()
-  	  diabeatsSkinThickness.name = "skinThickness"
-  	  diabeatsSkinThickness.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsSkinThickness)
-  let diabeatsInsulin = createOclAttribute()
-  	  diabeatsInsulin.name = "insulin"
-  	  diabeatsInsulin.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsInsulin)
-  let diabeatsBmi = createOclAttribute()
-  	  diabeatsBmi.name = "bmi"
-  	  diabeatsBmi.type = doubleOclType
-  	  diabeatsOclType.attributes.append(diabeatsBmi)
-  let diabeatsDiabetesPedigreeFunction = createOclAttribute()
-  	  diabeatsDiabetesPedigreeFunction.name = "diabetesPedigreeFunction"
-  	  diabeatsDiabetesPedigreeFunction.type = doubleOclType
-  	  diabeatsOclType.attributes.append(diabeatsDiabetesPedigreeFunction)
-  let diabeatsAge = createOclAttribute()
-  	  diabeatsAge.name = "age"
-  	  diabeatsAge.type = intOclType
-  	  diabeatsOclType.attributes.append(diabeatsAge)
-  let diabeatsOutcome = createOclAttribute()
-  	  diabeatsOutcome.name = "outcome"
-  	  diabeatsOutcome.type = stringOclType
-  	  diabeatsOclType.attributes.append(diabeatsOutcome)
-}
 
 func instanceFromJSON(typeName: String, json: String) -> AnyObject?
 	{ let jdata = json.data(using: .utf8)!
@@ -100,8 +26,7 @@ class ModelFacade : ObservableObject {
 	static func getInstance() -> ModelFacade { 
 		if instance == nil
 	     { instance = ModelFacade() 
-	       initialiseOclFile()
-	       initialiseOclType() }
+         }
 	    return instance! }
 	                          
 	init() { 
